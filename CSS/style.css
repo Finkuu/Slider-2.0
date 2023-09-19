@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-style: 100%;
+  line-height: 1;
+  font-style: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: inherit;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container h1 {
+  text-align: center;
+  position: relative;
+}
+
+.slider {
+  border: 3px solid #000;
+  max-width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.slider__line {
+  display: flex;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: orange;
+  transition: all ease 1s;
+}
+.slider__line img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  background: #e09142;
+  border-radius: 10%;
+  padding: 4px 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.button {
+  text-align: left;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 35px;
+  height: 10px;
+  margin: -10px 10px;
+  background: #cfcbff;
+  border-radius: 30%;
+}
+
+.active {
+  background: #000;
+}/*# sourceMappingURL=style.css.map */
